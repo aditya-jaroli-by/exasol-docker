@@ -6,10 +6,12 @@ A single node Exasol db running in a docker container. This project is inspired 
 This service is useful for learning Exasol, performing analytics on Exasol or Testing services dependent on Exasol.
 
 **USE CASE 1:** Dependent Microservice
+
 If there is a micro service which depends on an exasol db then to test the service (backend service and exasol db service) locally like it
 happens in staging/prod, once can use this project and run it in the container.
 
 **USE CASE 2:** BDDs/Tests running locally or in CI/CD pipeline
+
 Very useful to write BDDs for the service which depends on the exasol. These can be run locally and CI/CD pipelines too.
 
 **USE CASE 3:** Learning Exasol
